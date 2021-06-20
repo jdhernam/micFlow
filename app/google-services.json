@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "516056946097",
+    "project_id": "micflow-cdc72",
+    "storage_bucket": "micflow-cdc72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516056946097:android:4beff99d655ffa29f41990",
+        "android_client_info": {
+          "package_name": "com.example.diariomiccional_pd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516056946097-kj7dld8lrd9ptl78t5vsjm8ftluagh9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYsmMLbxDXsyug7fwIM0xFV6mKcSj0gho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516056946097-kj7dld8lrd9ptl78t5vsjm8ftluagh9a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

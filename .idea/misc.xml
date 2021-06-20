@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/drawable-v24/circle_gray.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/drawable-v24/rectangle_blue_sharp.xml" value="0.2361111111111111" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/drawable-v24/rectangle_gray.xml" value="0.2638888888888889" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/drawable-v24/rectangle_orange.xml" value="0.2361111111111111" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/drawable-v24/rectangle_teal_sharp.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/drawable-v24/rectangle_teal_sharp_bottom.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/drawable/rectangle.xml" value="0.24814814814814815" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/drawable/rectangle_blue.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/drawable/rectangle_blue_sharp_left.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/drawable/rectangle_blue_sharp_right.xml" value="0.2351851851851852" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/drawable/rectangle_gradient.xml" value="0.2212962962962963" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/drawable/rectangle_green.xml" value="0.24814814814814815" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/drawable/rectangle_light_gray.xml" value="0.225" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/drawable/rectangle_pink.xml" value="0.24814814814814815" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/drawable/rectangle_pink_sharpRight.xml" value="0.2351851851851852" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/drawable/rectangle_pink_sharp_left.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/drawable/rectangle_pink_sharp_right.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/drawable/rectangle_teal.xml" value="0.24814814814814815" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/drawable/rectangle_yellow.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/drawable/rectangle_yellow_green.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/drawable/share_icon.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/drawable/splash_design_1.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/layout/activity_export_visualize.xml" value="0.264" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/layout/activity_info_user.xml" value="0.264" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/layout/activity_ingesta.xml" value="0.264" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/layout/activity_posterior.xml" value="0.21105072463768115" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/layout/activity_welcome.xml" value="0.20742753623188406" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/layout/spinner_style.xml" value="0.16530797101449277" />
+        <entry key="..\:/Users/JD/AndroidStudioProjects/DiarioMiccional_PD2/app/src/main/res/layout/splash.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

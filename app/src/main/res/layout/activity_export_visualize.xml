@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExportVisualizeActivity">
+
+  <ImageView
+      android:id="@+id/imageView_corner2"
+      android:layout_width="16dp"
+      android:layout_height="16dp"
+      android:layout_marginTop="179dp"
+      android:rotationY="180"
+      app:layout_constraintBottom_toTopOf="@+id/imageView_tableShape_horizontal3"
+      app:layout_constraintEnd_toStartOf="@+id/imageView_tableShape_vertical_export2"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="@+id/divider2_export"
+      app:layout_constraintTop_toBottomOf="@+id/imageView_tableShape_horizontal_export"
+      app:layout_constraintVertical_bias="1.0"
+      app:srcCompat="@drawable/teal_corner__1_" />
+
+  <Button
+      android:id="@+id/button_exportData_export"
+      android:layout_width="0dp"
+      android:layout_height="65dp"
+      android:layout_marginTop="100dp"
+      android:background="@drawable/rectangle_yellow"
+      android:elevation="16dp"
+      android:gravity="top|left"
+      android:includeFontPadding="false"
+      android:text="Exportar"
+      android:textAllCaps="false"
+      android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+      android:textColor="#000000"
+      android:textSize="28sp"
+      android:translationY="-45dp"
+      app:backgroundTint="#F8EFA0"
+      app:cornerRadius="0dp"
+      app:iconPadding="0dp"
+      app:layout_constraintBottom_toTopOf="@+id/imageView_tableShape_horizontal_export4"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.02"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/text_Instructions_export"
+      app:layout_constraintVertical_bias="0.9"
+      app:layout_constraintWidth_default="percent"
+      app:layout_constraintWidth_percent="0.48" />
+
+  <Button
+      android:id="@+id/button_back_export"
+      android:layout_width="0dp"
+      android:layout_height="65dp"
+      android:layout_marginTop="100dp"
+      android:background="@drawable/rectangle_pink"
+      android:elevation="16dp"
+      android:gravity="top|left"
+      android:includeFontPadding="false"
+      android:text="Regresar"
+      android:textAllCaps="false"
+      android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+      android:textColor="#000000"
+      android:textSize="28sp"
+      android:translationY="-45dp"
+      app:backgroundTint="#F6C2C2"
+      app:cornerRadius="0dp"
+      app:iconPadding="0dp"
+      app:layout_constraintBottom_toTopOf="@+id/imageView_tableShape_horizontal_export4"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.98"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/text_Instructions_export"
+      app:layout_constraintVertical_bias="0.9"
+      app:layout_constraintWidth_default="percent"
+      app:layout_constraintWidth_percent="0.48" />
+
+  <ImageView
+      android:id="@+id/imageView_exportIcon_export"
+      android:layout_width="47dp"
+      android:layout_height="45dp"
+      android:layout_marginBottom="85dp"
+      android:elevation="7dp"
+      android:translationY="30dp"
+      app:layout_constraintBottom_toBottomOf="@+id/button_exportData_export"
+      app:layout_constraintEnd_toEndOf="@+id/button_exportData_export"
+      app:layout_constraintHorizontal_bias="0.96"
+      app:layout_constraintStart_toStartOf="@+id/button_exportData_export"
+      app:layout_constraintTop_toTopOf="@+id/button_exportData_export"
+      app:layout_constraintVertical_bias="1.0"
+      app:srcCompat="@drawable/share_icon_2"
+      tools:ignore="VectorDrawableCompat" />
+
+  <ImageView
+      android:id="@+id/imageView_tableShape_horizontal_export4"
+      android:layout_width="0dp"
+      android:layout_height="40dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.29000002"
+      app:srcCompat="@drawable/rectangle_teal_sharp_bottom" />
+
+  <TextView
+      android:id="@+id/text_typeLiqMic_export"
+      android:layout_width="0dp"
+      android:layout_height="40dp"
+      android:gravity="top|left"
+      android:textSize="15sp"
+      app:layout_constraintBottom_toTopOf="@+id/imageView_tableShape_horizontal3"
+      app:layout_constraintEnd_toEndOf="@+id/divider2_export"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toEndOf="@+id/text_typeLiqMicLabel_export"
+      app:layout_constraintTop_toBottomOf="@+id/imageView_tableShape_horizontal_export"
+      app:layout_constraintVertical_bias="0.979" />
+
+  <TextView
+      android:id="@+id/text_volMic_export"
+      android:layout_width="0dp"
+      android:layout_height="40dp"
+      android:gravity="top|left"
+      android:textSize="15sp"
+      app:layout_constraintBottom_toTopOf="@+id/imageView_tableShape_horizontal3"
+      app:layout_constraintEnd_toEndOf="@+id/divider2_export"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toEndOf="@+id/text_volMicLabel_export"
+      app:layout_constraintTop_toBottomOf="@+id/imageView_tableShape_horizontal_export"
+      app:layout_constraintVertical_bias="0.657" />
+
+  <TextView
+      android:id="@+id/text_dateMic_export"
+      android:layout_width="0dp"
+      android:layout_height="40dp"
+      android:gravity="top|left"
+      android:textSize="15sp"
+      app:layout_constraintBottom_toTopOf="@+id/imageView_tableShape_horizontal3"
+      app:layout_constraintEnd_toEndOf="@+id/dividerHorizontal_export"
+      app:layout_constraintHorizontal_bias="0.025"
+      app:layout_constraintStart_toEndOf="@+id/text_dateMicLabel_export"
+      app:layout_constraintTop_toBottomOf="@+id/imageView_tableShape_horizontal_export"
+      app:layout_constraintVertical_bias="0.0" />
+
+  <TextView
+      android:id="@+id/text_volMicLabel_export"
+      android:layout_width="90dp"
+      android:layout_height="40dp"
+      android:text="Volumen:"
+      android:textSize="15sp"
+      app:layout_constraintBottom_toTopOf="@+id/imageView_tableShape_horizontal3"
+      app:layout_constraintEnd_toStartOf="@+id/imageView_tableShape_vertical_export2"
+      app:layout_constraintHorizontal_bias="0.12"
+      app:layout_constraintStart_toStartOf="@id/dividerHorizontal_export"
+      app:layout_constraintTop_toBottomOf="@+id/imageView_tableShape_horizontal_export"
+      app:layout_constraintVertical_bias="0.657" />
+
+  <TextView
+      android:id="@+id/text_flujoMicLabel_export"
+      android:layout_width="90dp"
+      android:layout_height="40dp"
+      android:text="Flujo avg:"
+      android:textSize="15sp"
+      app:layout_constraintBottom_toTopOf="@+id/imageView_tableShape_horizontal3"
+      app:layout_constraintEnd_toStartOf="@+id/imageView_tableShape_vertical_export2"
+      app:layout_constraintHorizontal_bias="0.12"
+      app:layout_constraintStart_toStartOf="@id/dividerHorizontal_export"
+      app:layout_constraintTop_toBottomOf="@+id/imageView_tableShape_horizontal_export"
+      app:layout_constraintVertical_bias="0.0" />
+
+  <TextView
+      android:id="@+id/text_urgMicLabel_export"
+      android:layout_width="90dp"
+      android:layout_height="40dp"
+      android:text="Urgencia:"
+      android:textSize="15sp"
+      app:layout_constraintBottom_toTopOf="@+id/imageView_tableShape_horizontal3"
+      app:layout_constraintEnd_toStartOf="@+id/imageView_tableShape_vertical_export2"
+      app:layout_constraintHorizontal_bias="0.12"
+      app:layout_constraintStart_toStartOf="@id/dividerHorizontal_export"
+      app:layout_constraintTop_toBottomOf="@+id/imageView_tableShape_horizontal_export"
+      app:layout_constraintVertical_bias="0.328" />
+
+  <TextView
+      android:id="@+id/text_typeLiqMicLabel_export"
+      android:layout_width="90dp"
+      android:layout_height="40dp"
+      android:text="Tipo líquido:"
+      android:textSize="15sp"
+      app:layout_constraintBottom_toTopOf="@+id/imageView_tableShape_horizontal3"
+      app:layout_constraintEnd_toStartOf="@+id/imageView_tableShape_vertical_export2"
+      app:layout_constraintHorizontal_bias="0.12"
+      app:layout_constraintStart_toStartOf="@id/dividerHorizontal_export"
+      app:layout_constraintTop_toBottomOf="@+id/imageView_tableShape_horizontal_export"
+      app:layout_constraintVertical_bias="0.979" />
+
+  <View
+      android:id="@+id/divider3_export"
+      android:layout_width="0dp"
+      android:layout_height="1dp"
+      android:background="?android:attr/listDivider"
+      app:layout_constraintBottom_toTopOf="@+id/text_durMic_export"
+      app:layout_constraintEnd_toStartOf="@+id/imageView_tableShape_vertical_export2"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toEndOf="@+id/imageView_tableShape_vertical_export"
+      app:layout_constraintTop_toBottomOf="@+id/text_typeMic_export"
+      app:layout_constraintVertical_bias="1.0" />
+
+  <View
+      android:id="@+id/divider1_export"
+      android:layout_width="0dp"
+      android:layout_height="1dp"
+      android:background="?android:attr/listDivider"
+      app:layout_constraintBottom_toTopOf="@+id/text_timeMic_export"
+      app:layout_constraintEnd_toStartOf="@+id/imageView_tableShape_vertical_export2"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toEndOf="@+id/imageView_tableShape_vertical_export"
+      app:layout_constraintTop_toBottomOf="@+id/text_flujoMic_export"
+      app:layout_constraintVertical_bias="0.791" />
+
+  <View
+      android:id="@+id/divider2_export"
+      android:layout_width="0dp"
+      android:layout_height="1dp"
+      android:background="?android:attr/listDivider"
+      app:layout_constraintBottom_toTopOf="@+id/text_typeMic_export"
+      app:layout_constraintEnd_toStartOf="@+id/imageView_tableShape_vertical_export2"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toEndOf="@+id/imageView_tableShape_vertical_export"
+      app:layout_constraintTop_toBottomOf="@+id/text_timeMic_export"
+      app:layout_constraintVertical_bias="0.63" />
+
+  <TextView
+      android:id="@+id/text_timeMic_export"
+      android:layout_width="0dp"
+      android:layout_height="40dp"
+      android:gravity="top|left"
+      android:textSize="15sp"
+      app:layout_constraintBottom_toTopOf="@+id/imageView_tableShape_horizontal3"
+      app:layout_constraintEnd_toEndOf="@+id/dividerHorizontal_export"
+      app:layout_constraintHorizontal_bias="0.025"
+      app:layout_constraintStart_toEndOf="@+id/text_dateMicLabel_export"
+      app:layout_constraintTop_toBottomOf="@+id/imageView_tableShape_horizontal_export"
+      app:layout_constraintVertical_bias="0.321" />
+
+  <TextView
+      android:id="@+id/text_durMic_export"
+      android:layout_width="0dp"
+      android:layout_height="40dp"
+      android:gravity="top|left"
+      android:textSize="15sp"
+      app:layout_constraintBottom_toTopOf="@+id/imageView_tableShape_horizontal3"
+      app:layout_constraintEnd_toEndOf="@+id/dividerHorizontal_export"
+      app:layout_constraintHorizontal_bias="0.025"
+      app:layout_constraintStart_toEndOf="@+id/text_dateMicLabel_export"
+      app:layout_constraintTop_toBottomOf="@+id/imageView_tableShape_horizontal_export"
+      app:layout_constraintVertical_bias="0.972" />
+
+  <TextView
+      android:id="@+id/text_timeMicLabel_export"
+      android:layout_width="90dp"
+      android:layout_height="40dp"
+      android:text="Hora:"
+      android:textSize="15sp"
+      app:layout_constraintBottom_toTopOf="@+id/imageView_tableShape_horizontal3"
+      app:layout_constraintEnd_toStartOf="@+id/imageView_tableShape_vertical_export2"
+      app:layout_constraintHorizontal_bias="0.052"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageView_tableShape_horizontal_export"
+      app:layout_constraintVertical_bias="0.328" />
+
+  <TextView
+      android:id="@+id/text_dateMicLabel_export"
+      android:layout_width="90dp"
+      android:layout_height="40dp"
+      android:text="Fecha:"
+      android:textSize="15sp"
+      app:layout_constraintBottom_toTopOf="@+id/imageView_tableShape_horizontal3"
+      app:layout_constraintEnd_toStartOf="@+id/imageView_tableShape_vertical_export2"
+      app:layout_constraintHorizontal_bias="0.052"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageView_tableShape_horizontal_export"
+      app:layout_constraintVertical_bias="0.006" />
+
+  <TextView
+      android:id="@+id/text_typeMicLabel_export"
+      android:layout_width="90dp"
+      android:layout_height="40dp"
+      android:text="Tipo:"
+      android:textSize="15sp"
+      app:layout_constraintBottom_toTopOf="@+id/imageView_tableShape_horizontal3"
+      app:layout_constraintEnd_toStartOf="@+id/imageView_tableShape_vertical_export2"
+      app:layout_constraintHorizontal_bias="0.052"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageView_tableShape_horizontal_export"
+      app:layout_constraintVertical_bias="0.657" />
+
+  <TextView
+      android:id="@+id/text_durMicLabel_export"
+      android:layout_width="90dp"
+      android:layout_height="40dp"
+      android:text="Duración:"
+      android:textSize="15sp"
+      app:layout_constraintBottom_toTopOf="@+id/imageView_tableShape_horizontal3"
+      app:layout_constraintEnd_toStartOf="@+id/imageView_tableShape_vertical_export2"
+      app:layout_constraintHorizontal_bias="0.052"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageView_tableShape_horizontal_export"
+      app:layout_constraintVertical_bias="0.979" />
+
+  <TextView
+      android:id="@+id/text_typeMic_export"
+      android:layout_width="0dp"
+      android:layout_height="40dp"
+      android:gravity="top|left"
+      android:textSize="15sp"
+      app:layout_constraintBottom_toTopOf="@+id/imageView_tableShape_horizontal3"
+      app:layout_constraintEnd_toEndOf="@+id/dividerHorizontal_export"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toEndOf="@+id/text_dateMicLabel_export"
+      app:layout_constraintTop_toBottomOf="@+id/imageView_tableShape_horizontal_export"
+      app:layout_constraintVertical_bias="0.657" />
+
+  <TextView
+      android:id="@+id/text_Instructions_export"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:text="Utilice el botón para exportar sus registros..."
+      android:textColor="?attr/colorSecondary"
+      android:textSize="20sp"
+      app:layout_constraintBottom_toTopOf="@+id/imageView_tableShape_horizontal_export4"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0"
+      app:layout_constraintWidth_default="percent"
+      app:layout_constraintWidth_percent="0.9
+" />
+
+  <TextView
+      android:id="@+id/text_registerLabel_export"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      android:layout_marginTop="49dp"
+      android:layout_marginBottom="7dp"
+      android:elevation="7dp"
+      android:text="Detalle del registro:"
+      android:textColor="#FFFFFF"
+      android:textSize="20sp"
+      android:translationY="-45dp"
+      app:layout_constraintBottom_toBottomOf="@+id/imageView_tableShape_horizontal_export"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.03"
+      app:layout_constraintStart_toStartOf="@+id/imageView_tableShape_horizontal_export"
+      app:layout_constraintTop_toTopOf="@+id/imageView_tableShape_horizontal_export"
+      app:layout_constraintVertical_bias="0.0"
+      app:layout_constraintWidth_default="percent"
+      app:layout_constraintWidth_percent="0.42" />
+
+  <TextView
+      android:id="@+id/text_resumeLabel_export"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      android:layout_marginTop="49dp"
+      android:layout_marginBottom="7dp"
+      android:elevation="7dp"
+      android:text="Resumen de sus registros:"
+      android:textColor="#FFFFFF"
+      android:textSize="20sp"
+      android:translationY="-45dp"
+      app:layout_constraintBottom_toBottomOf="@+id/imageView_tableShape_horizontal_export4"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.03"
+      app:layout_constraintStart_toStartOf="@+id/imageView_tableShape_horizontal_export"
+      app:layout_constraintTop_toTopOf="@+id/imageView_tableShape_horizontal_export4"
+      app:layout_constraintVertical_bias="0.0"
+      app:layout_constraintWidth_default="percent"
+      app:layout_constraintWidth_percent="0.42" />
+
+  <ImageView
+      android:id="@+id/imageView_tableShape_vertical_export"
+      android:layout_width="6dp"
+      android:layout_height="0dp"
+      app:layout_constraintBottom_toTopOf="@+id/imageView_tableShape_horizontal3"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageView_tableShape_horizontal_export4"
+      app:layout_constraintVertical_bias="1.0"
+      app:srcCompat="@drawable/rectangle_teal_sharp" />
+
+  <ImageView
+      android:id="@+id/imageView_tableShape_horizontal3"
+      android:layout_width="0dp"
+      android:layout_height="6dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="1.0"
+      app:srcCompat="@drawable/rectangle_teal_sharp" />
+
+  <ImageView
+      android:id="@+id/imageView_tableShape_horizontal_export"
+      android:layout_width="0dp"
+      android:layout_height="40dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/graphView_vol_vs_time"
+      app:layout_constraintVertical_bias="0.050000012"
+      app:srcCompat="@drawable/rectangle_teal_sharp_bottom" />
+
+  <ImageView
+      android:id="@+id/imageView_tableShape_vertical_export2"
+      android:layout_width="6dp"
+      android:layout_height="0dp"
+      app:layout_constraintBottom_toTopOf="@+id/imageView_tableShape_horizontal3"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageView_tableShape_horizontal_export4"
+      app:layout_constraintVertical_bias="0.0"
+      app:srcCompat="@drawable/rectangle_teal_sharp" />
+
+  <TextView
+      android:id="@+id/text_flujoMic_export"
+      android:layout_width="0dp"
+      android:layout_height="40dp"
+      android:gravity="top|left"
+      android:textSize="15sp"
+      app:layout_constraintBottom_toTopOf="@+id/imageView_tableShape_horizontal3"
+      app:layout_constraintEnd_toEndOf="@+id/divider2_export"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toEndOf="@+id/text_flujoMicLabel_export"
+      app:layout_constraintTop_toBottomOf="@+id/imageView_tableShape_horizontal_export"
+      app:layout_constraintVertical_bias="0.0" />
+
+  <TextView
+      android:id="@+id/text_urgMic_export"
+      android:layout_width="0dp"
+      android:layout_height="40dp"
+      android:gravity="top|left"
+      android:textSize="15sp"
+      app:layout_constraintBottom_toTopOf="@+id/imageView_tableShape_horizontal3"
+      app:layout_constraintEnd_toEndOf="@+id/divider2_export"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toEndOf="@+id/text_urgMicLabel_export"
+      app:layout_constraintTop_toBottomOf="@+id/imageView_tableShape_horizontal_export"
+      app:layout_constraintVertical_bias="0.328" />
+
+  <com.jjoe64.graphview.GraphView
+      android:id="@+id/graphView_vol_vs_time"
+      android:layout_width="329dp"
+      android:layout_height="0dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHeight_default="percent"
+      app:layout_constraintHeight_percent="0.3"
+      app:layout_constraintHorizontal_bias="0.378"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageView_tableShape_horizontal_export4"
+      app:layout_constraintVertical_bias="0.058" />
+
+  <View
+      android:id="@+id/dividerHorizontal_export"
+      android:layout_width="1dp"
+      android:layout_height="0dp"
+      android:background="?android:attr/listDivider"
+      app:layout_constraintBottom_toTopOf="@+id/imageView_tableShape_horizontal3"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageView_tableShape_horizontal_export" />
+
+  <ImageView
+      android:id="@+id/imageView_corner"
+      android:layout_width="16dp"
+      android:layout_height="16dp"
+      android:layout_marginTop="179dp"
+      app:layout_constraintBottom_toTopOf="@+id/imageView_tableShape_horizontal3"
+      app:layout_constraintEnd_toStartOf="@+id/imageView_tableShape_vertical_export2"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="@+id/divider2_export"
+      app:layout_constraintTop_toBottomOf="@+id/imageView_tableShape_horizontal_export"
+      app:layout_constraintVertical_bias="1.0"
+      app:srcCompat="@drawable/teal_corner__1_" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
